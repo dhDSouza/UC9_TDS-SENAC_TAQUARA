@@ -1,5 +1,35 @@
 # **Aula de Revisão de POO em C#**
 
+## **0. Criando um Projeto em C#**
+
+Antes de começar, precisamos criar um projeto para rodar os exemplos.
+
+### **✔️ Usando o .NET CLI (terminal)**
+
+1. Verifique se o .NET está instalado:
+
+```bash
+dotnet --version
+```
+
+2. Crie um novo projeto:
+
+```bash
+dotnet new console -n AulaPOO
+```
+
+3. Entre na pasta:
+
+```bash
+cd AulaPOO
+```
+
+4. Execute o projeto:
+
+```bash
+dotnet run
+```
+
 ## **1. O que é POO?**
 
 POO (**Programação Orientada a Objetos**) é um paradigma de programação que organiza o código em **objetos**, que representam **coisas do mundo real** ou **conceitos abstratos**, cada um com **atributos** (características) e **métodos** (ações).
